@@ -107,6 +107,7 @@ Trajectory Analysis Tab
 <!-- USAGE EXAMPLES -->
 ## Usage
 <img width="1439" alt="Screenshot 2024-12-21 at 1 38 46 PM" src="https://github.com/user-attachments/assets/2c7faa01-e7ed-46cf-9034-acaa3da633bc" />
+<img width="1439" alt="trajectory" src="https://github.com/user-attachments/assets/29aeda22-6bda-4dbe-9a8d-bcbaaadf1a2a" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
