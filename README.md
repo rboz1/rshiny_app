@@ -74,7 +74,7 @@ Trajectory Analysis Tab
 - DESeq2
 - Seurat
 - Monocle3
-- Data from: https://www.nature.com/articles/s41586-024-07493-y
+- Data: https://www.nature.com/articles/s41586-024-07493-y
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
