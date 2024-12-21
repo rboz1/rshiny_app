@@ -45,7 +45,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This Shiny app provides an interactive interface to analyze gene expression data through various modules, including data summary, counts matrix processing, differential expression analysis, and trajectory analysis. Used the study Single-cell atlas of the human brain vasculature across development, adulthood and disease by Wälchi et al., 2024.
+This Shiny app provides an interactive interface to analyze gene expression data through various modules, including data summary, counts matrix processing, differential expression analysis, and trajectory analysis. Used data from the study *Single-cell atlas of the human brain vasculature across development, adulthood and disease* by Wälchi et al., 2024.
 
 ### Features
 Summary Tab
