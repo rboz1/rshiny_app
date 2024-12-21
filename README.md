@@ -99,14 +99,14 @@ Trajectory Analysis Tab
    
 3. Run the script 
    ```
-   snakemake -c1
+   shiny::runApp('rshiny_app')
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-<img width="1440" alt="snakemake" src="https://github.com/rboz1/snp_calling_workflow/assets/63253421/46063304-4a02-4abf-aea3-e9d5ab58358c">
+<img width="1439" alt="Screenshot 2024-12-21 at 1 38 46 PM" src="https://github.com/user-attachments/assets/2c7faa01-e7ed-46cf-9034-acaa3da633bc" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
