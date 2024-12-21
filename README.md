@@ -11,10 +11,9 @@
 
 
 <!-- PROJECT LOGO -->
-  <h3 align="center">RNA-Seq Analysis App</h3>
+  <h3 align="center">Gene Expression Analysis App</h3>
 
   <p align="center">
-    A SNP-calling workflow using Snakemake that looks for SNPs in genes involved in Alzheimer's Disease.
   </p>
 </div>
 
@@ -46,13 +45,35 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+This Shiny app provides an interactive interface to analyze gene expression data through various modules, including data summary, counts matrix processing, differential expression analysis, and trajectory analysis.
 
+### Features
+Summary Tab
+- Summary Table: Displays general descriptive statistics (e.g., age, gender distribution).
+- Data Table: View and explore the uploaded metadata in a sortable table.
+- Plots: Visualize sample-level data using violin plots.
 
+Counts Matrix Tab
+- Diagnostic scatter plots for variance and counts.
+- Heatmaps and PCA plots of filtered data.
+
+Differential Expression Tab
+- Volcano Plot: Customize and visualize differential expression results interactively.
+- Differential Expression Results Table: Explore DESeq2 results interactively.
+
+Trajectory Analysis Tab
+- Upload Seurat object: Accepts an .rds file containing a processed Seurat object.
+- Filtering Options: Filter data based on conditions, clusters, and selected genes.
+- Plots: Generate trajectory and pseudotime plots with customizable color palettes.
+- Filtered Data Table: View data filtered by the selected criteria.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
-![snek](https://github.com/rboz1/snp_calling_workflow/assets/63253421/25c7f821-05cf-4b7e-9d66-4b6b32fd686c)
+- R
+- DESeq2
+- Seurat
+- Monocle3
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,16 +83,21 @@
 ## Getting Started
 
 ### Prerequisites
-* python
-* snakemake
+* R
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/rboz1/snp_calling_workflow.git
+   git clone https://github.com/rboz1/rshiny_app.git
+
+2. Install packages
+   ```
+   install.packages(c("tidyverse", "dplyr", "DESeq2", "Seurat", "SeuratObject", 
+                   "ggplot2", "gplots", "RColorBrewer", "shiny", 
+                   "shinycssloaders", "colourpicker", "DT", "biomaRt"))
    
-2. Run the script 
+3. Run the script 
    ```
    snakemake -c1
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
